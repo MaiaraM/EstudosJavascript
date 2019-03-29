@@ -1,0 +1,61 @@
+.red{border: 2px red solid;}
+body {margin: 0; padding: 0;}
+
+/*----------Cabecalho---------------*/
+#cabecalho{
+    z-index: 1000;
+    top: 0;
+    height: 50px;
+    border-top: 5px solid #ffc823;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    transition: height 0.6s;
+    display: block; 
+    color: #ffc823;
+}
+
+#logotipo{
+    width: 10em;
+    margin: 0 ;
+    transition: width 0.6s;
+    padding: 0;
+}
+
+/*----------Corpo---------------*/
+#corpo{
+    padding:10px auto;
+    margin:55px auto;
+    background: #fff;
+}
+/*----------Footer---------------*/
+
+footer i{
+    display: inline;
+    padding: 5px 10px;
+    font-size: 30px;
+    color:#fff;  
+}
+footer{
+    padding-top:10px;
+    position: fixed;
+    z-index: 540;
+    bottom: 0;
+    background-color: #747474;
+    color:rgb(255, 255, 255);
+}
+
+footer p{
+    font-size: 14px;
+    display: table-cell;
+}
+
+#linkRodape{
+    color:#ffc823;  
+    transition: 0.3s all;
+}
+
+#linkRodape:hover{
+    
+    font-size: 16px;
+}

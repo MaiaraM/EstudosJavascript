@@ -1,0 +1,24 @@
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+.frase{
+    text-align: center;
+}
+
+#frase{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.bordaVerde{
+    border: 2px solid green !important;
+    box-shadow: none;
+}
+
+.bordaVermelha{
+    border: 2px solid red !important;
+    box-shadow: none;
+}
