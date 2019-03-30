@@ -36,26 +36,34 @@
                 <p>TypeType é o jogo que mede a velocidade da sua digitação.
                     Digite a frase o mais rápido que conseguir! Será pontuado a quantidade de palavras escritas
                     corretamentes, está preparado? </p>
-                <p class="frase">"<span id="frase">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>"</p>
+                <p class="frase">"<span id="frase">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Vero alias, ex enim eaque sed velit ullam nostrum...</span>"</p>
                 <br>
             </div>
 
-            <div class="col-6 text-center">
+            <div class="col-6">
                 <p><b>Palavras: </b><span id="palavras">0</span></p>
-            </div>
-            <div class="col-6 text-center">
                 <p><b>Tempo: </b><span id="contadorTempo">0</span> s</p>
+                <textarea id="areaDigitacao" placeholder="Para começar digite aqui" class="form-control"
+                rows="3" ></textarea>
+            </div>
+            <div class="col-6 resultado text-center">
+                <p><h4>Resultado</h4></p>
+                <p><b>Palavras: </b><span id="resultadoPalavras">0</span> &emsp;&emsp;
+                <b>Caracteres por Segundo: </b><span id="resultadoCaracteres">0</span></p>
+                <button  type="button" class="btn btn-success "><i class="far fa-save"></i></button>  
+                <button  type="button" class="btn btn-info"><i class="fas fa-sync"></i></button>    
+                <button  type="button" class="btn btn-primary"><i class="fas fa-medal"></i></i></button> 
             </div>
             <div class="col-sm-12">
-            <textarea id="areaDigitacao" placeholder="Para começar digite aqui" class="form-control"
-                rows="3" ></textarea>
-                <br><br>
+            
+            
             </div>
             <div class="col-6 text-center">
-                <p><b>Palavras: </b><span id="resultadoPalavras">0</span></p>
+               
             </div>
             <div class="col-6 text-center">
-                <p><b>Caracteres por Segundo: </b><span id="resultadoCaracteres">0</span></p>
+               
             </div>
         </div>
     </div>

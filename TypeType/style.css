@@ -22,3 +22,14 @@ textarea {
     border: 2px solid red !important;
     box-shadow: none;
 }
+
+.btn{
+    margin: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    
+}
+
+.resultado{
+    background-color: rgb(240, 240, 240);
+}
