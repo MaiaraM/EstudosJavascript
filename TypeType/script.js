@@ -80,7 +80,7 @@ function resultado() {
     var i =0  ;
     let valores = areaDigitacao.value.split(" ");
     for (let b = 0; b < valores.length; b++) {
-       if(valores[b] == listaPalavras[b]){
+       if(valores[b].toLowerCase == listaPalavras[b].toLocaleLowerCase){
            i++;
        } 
     }

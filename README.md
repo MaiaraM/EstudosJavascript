@@ -1,4 +1,4 @@
 # Javascript
 Grupo de estudo Javascript fatec Americana
 
-* TypeType
+* [TypeType](https://maiaram.github.io/EstudosJavascript/TypeType) - Game de digitação

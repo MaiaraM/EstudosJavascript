@@ -1,6 +1,7 @@
 textarea {
     resize: none;
     width: 100%;
+    margin:5px 15px;
 }
 
 .frase{
