@@ -1,9 +1,14 @@
 var form  = document.querySelector('#form');
 var cesta  = document.querySelector('#cesta');
+var msgErro  = document.querySelector('#msg-erro');
 var index = 1;
 
 function verificarForm() {
-
+    if(form.preco.value == ""){
+        msgErro.classList.replace('invisivel', 'visivel');
+    }else{
+        salvar();
+    }
 
 }
 

@@ -27,10 +27,14 @@
     <div class="container " id="corpo">
         <div class="row justify-content-center">
             <div class="col-sm-10">
-                    <span class="small">teste <hr></span>
+                <div class="invisivel" id="msg-erro">
+                    <span class="small erro " >Mensagem de erro</span>
+                    <hr>
+                </div>
+
                 <form id="form">
                     <div class="form-group row">
-                        
+
                         <label class="col-sm-2 col-form-label">Produto</label>
                         <div class="col-sm-10">
                             <input class="form-control" name="produto">
@@ -49,7 +53,7 @@
                     </div>
                     <div class="form-group row text-right">
                         <div class="col-sm-12">
-                            <button type="submit" class="btn btn-primary" onclick="salvar()">Adicionar</button>
+                            <button type="submit" class="btn btn-primary" onclick="verificarForm()">Adicionar</button>
                         </div>
                     </div>
                 </form>

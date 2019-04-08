@@ -66,3 +66,17 @@ footer p{
     opacity: 0;
     transition: 0.5s;
 }
+
+.erro{
+    color: #ff0000;
+}
+
+.invisivel{
+    display: none;
+    transition: 0.5s;
+}
+
+.visivel{
+    display: block;
+    transition: 0.5s;
+}
