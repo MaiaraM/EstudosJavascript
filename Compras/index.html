@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="../Base/base.css">
-    <link rel="stylesheet" href="style.css">
-
-    <title>TypeType</title>
+    <title>Cesta</title>
 
 </head>
 
@@ -21,36 +19,54 @@
                     <img src="../Base/img/Logo.png" alt="GalaxyWare " id="logotipo"></a>
             </div>
             <div class="col-9 col-6 text-center">
-                <h2>TypeType</h2>
+                <h2> Cesta de Compras</h2>
             </div>
         </div>
     </div>
 
-
     <div class="container " id="corpo">
         <div class="row justify-content-center">
             <div class="col-sm-10">
-                <p>TypeType é o jogo que mede a velocidade da sua digitação.
-                    Digite a frase o mais rápido que conseguir! Será pontuado a quantidade de palavras escritas
-                    corretamentes, está preparado? </p>
-                <p class="frase">"<span id="frase">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Vero alias, ex enim eaque sed velit ullam nostrum...</span>"</p>
-                <br>
-            </div>
+                    <span class="small">teste <hr></span>
+                <form id="form">
+                    <div class="form-group row">
+                        
+                        <label class="col-sm-2 col-form-label">Produto</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" name="produto">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Preço</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" name="preco">
+                        </div>
 
-            <div class="col-6">
-                <p><b>Palavras: </b><span id="palavras">0</span></p>
-                <p><b>Tempo: </b><span id="contadorTempo">0</span> s</p>
-                <textarea id="areaDigitacao" placeholder="Para começar digite aqui" class="form-control"
-                rows="3" ></textarea>
-            </div>
-            <div class="col-6 resultado text-center">
-                <p><h4>Resultado</h4></p>
-                <p><b>Palavras: </b><span id="resultadoPalavras">0</span> &emsp;&emsp;
-                <b>Caracteres por Segundo: </b><span id="resultadoCaracteres">0</span></p>
-                <button  type="button" class="btn btn-success "><i class="far fa-save"></i></button>  
-                <button  type="button" class="btn btn-info"><i class="fas fa-sync"></i></button>    
-                <button  type="button" class="btn btn-primary"><i class="fas fa-medal"></i></i></button> 
+                        <label class="col-2 col-form-label">Quantidade</label>
+                        <div class="col-3">
+                            <input class="form-control" type="number" value="1" name="quantidade">
+                        </div>
+                    </div>
+                    <div class="form-group row text-right">
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-primary" onclick="salvar()">Adicionar</button>
+                        </div>
+                    </div>
+                </form>
+
+                <table class="table" id="cesta">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Produto</th>
+                            <th scope="col">Quantidade</th>
+                            <th scope="col">Preco</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>

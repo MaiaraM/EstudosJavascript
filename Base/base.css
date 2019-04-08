@@ -25,7 +25,7 @@ body {margin: 0; padding: 0;}
 /*----------Corpo---------------*/
 #corpo{
     padding:10px auto;
-    margin:55px auto;
+    margin:65px auto;
     background: #fff;
 }
 /*----------Footer---------------*/
@@ -58,4 +58,11 @@ footer p{
 #linkRodape:hover{
     
     font-size: 16px;
+}
+
+/*-----------Animação---------*/
+
+.fadeOut {
+    opacity: 0;
+    transition: 0.5s;
 }
